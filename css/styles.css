@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body {
+    background-image: url("../background.jpg"); /* Aqui tá certo */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;  
+}
+ul{
+    list-style: none;
+    background-color: rgb(28, 32, 32);
+    text-align: center;
+    opacity: 0.8;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #f0e3e3;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul.submenu li{
+    display: block;
+}
+ul li a:hover{
+    background-color: rgb(74, 109, 105);
+}
+ul li:hover ul.submenu{
+    display: block;
+    
+}
+
+.sobre{
+    margin-top: 13em;
+    text-align: center;
+    color: white;
+}
+.sobre h1{
+    font-size: 4.5em;
+    text-shadow: 0 0 15px aqua;
+}
+.sobre p{
+    font-size: 1.5em;
+}
